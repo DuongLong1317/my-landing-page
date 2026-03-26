@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary-dim: #005b45;
+  --color-background: #f5f6f7;
+  --color-on-secondary-fixed: #004936;
+  --color-tertiary-container: #f9ea8d;
+  --color-inverse-primary: #4b8eff;
+  --color-on-error: #ffefee;
+  --color-outline-variant: #abadae;
+  --color-on-primary-fixed: #000000;
+  --color-surface-tint: #0058bb;
+  --color-outline: #757778;
+  --color-error-dim: #9f0519;
+  --color-on-tertiary-fixed-variant: #6b6010;
+  --color-on-secondary-container: #005d47;
+  --color-tertiary-fixed-dim: #ebdb81;
+  --color-surface-bright: #f5f6f7;
+  --color-on-primary-fixed-variant: #002a61;
+  --color-tertiary-dim: #5a5000;
+  --color-on-tertiary-fixed: #4c4300;
+  --color-surface: #f5f6f7;
+  --color-surface-container: #e6e8ea;
+  --color-secondary-container: #8ff6d0;
+  --color-tertiary: #675c0c;
+  --color-surface-variant: #dadddf;
+  --color-secondary: #00684f;
+  --color-on-tertiary-container: #605604;
+  --color-tertiary-fixed: #f9ea8d;
+  --color-surface-container-low: #eff1f2;
+  --color-secondary-fixed: #8ff6d0;
+  --color-on-secondary-fixed-variant: #00684f;
+  --color-on-secondary: #c6ffe7;
+  --color-error-container: #fb5151;
+  --color-on-primary-container: #00214f;
+  --color-surface-container-high: #e0e3e4;
+  --color-primary-dim: #004ca4;
+  --color-secondary-fixed-dim: #81e7c3;
+  --color-error: #b31b25;
+  --color-inverse-surface: #0c0f10;
+  --color-on-background: #2c2f30;
+  --color-on-primary: #f0f2ff;
+  --color-primary: #0058bb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-dim: #d1d5d7;
+  --color-inverse-on-surface: #9b9d9e;
+  --color-surface-container-highest: #dadddf;
+  --color-on-surface: #2c2f30;
+  --color-primary-fixed: #6c9fff;
+  --color-on-error-container: #570008;
+  --color-primary-fixed-dim: #5191ff;
+  --color-on-tertiary: #fff4ba;
+  --color-primary-container: #6c9fff;
+  --color-on-surface-variant: #595c5d;
+
+  --font-headline: var(--font-inter), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-label: var(--font-inter), sans-serif;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: var(--font-headline); 
+}
